@@ -1,7 +1,7 @@
 :root,
 
 :root.wine{
-    --dark-color: rgb(20, 20, 20);
+    --dark-color: #000000;
     --light_color: #f80074;
     --whitefont: #f9faf8;
     --grayback: #e5e7eb;
@@ -78,16 +78,31 @@ a{
 .hero_section{
     background-color: var(--dark-color);
     color: var(--whitefont);
+    background-image:url('./assets/video_still.jpg') ;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 
 }
 .hero_slide{
     display: flex;
     justify-content: center;
-    background-image:url('./assets/video_still.jpg') ;
-    background-size: cover;
-    background-position: center center;
+   
 }
 
+.hero_right{
+    background-color: var(--dark-color);
+    height: 600px;
+    flex: 1;
+   
+}
+
+.hero_left{
+    background-color: var(--dark-color);
+    height: 600px;
+    flex: 1;
+   
+}
 
 /* #brain_vid {
     position:fixed;
@@ -167,10 +182,7 @@ text-align: center;
     color: var(--whitefont);
 }
 
-img{
-    max-width: 100%;
-    height: auto;
-}
+
 button{
     padding: 8px 20px;
     background-color: var(--light_color) ;
