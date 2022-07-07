@@ -156,15 +156,22 @@ text-align: center;
     font-family: 'akzidenz_grotesk_light';
     font-weight: 100;
 }
-
-.neuro_section{
+.neuro_section {
+    
+    position:relative;
+}
+.neuro_section .back{
     background-color: var(--dark-color);
     background-image:url('./assets/elk.jpg') ;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
-    padding: 175px;
+    background-attachment:fixed;
+    backdrop-filter:var(--dark-color);
     padding: 280px 0px;
+    box-shadow: 10px 15px 60px inset var(--dark-color);
+    position:absolute;
+    width: 100%;
+    color: var(--whitefont);
 }
 
 .neuro_section h4{
