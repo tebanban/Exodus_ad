@@ -157,8 +157,8 @@ text-align: center;
     font-weight: 100;
 }
 .neuro_section {
-    
     position:relative;
+    height: 500px;
 }
 .neuro_section .back{
     background-color: var(--dark-color);
@@ -172,6 +172,7 @@ text-align: center;
     position:absolute;
     width: 100%;
     color: var(--whitefont);
+    z-index: -1;
 }
 
 .neuro_section h4{
@@ -180,6 +181,8 @@ text-align: center;
     line-height: 60px;
     font-family: 'akzidenz_grotesk_light';
     font-weight: 100;
+    padding: 40px;
+    position:absolute
 }
 
 .neuro_section h2{
@@ -205,37 +208,7 @@ button{
     cursor: pointer; 
     transition-duration: 0.4s;
 }
-  button:hover {
-    background-color: var(--whitefont);
-    color:#3882f6;
-  }
 
-
-.card_box{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding-top: 40px;
-    flex-wrap: wrap;
-}
-
-.card_body{
-    border: solid 5px var(--light_color);
-    border-radius: 8px;
-    flex: 1;
-    cursor: pointer; 
-    transition-duration: 0.4s;
-    margin-bottom: 5px;
-}
-
-.card_body:hover{
-    transform: scale(1.02);
-
-}
-
-.wine .wines{
-    transform: scale(1.05)
-}
 
 .card_body img{
     display: flex;
@@ -256,47 +229,6 @@ button{
     text-align: left;
 }
 
-.quote_section blockquote{
-    max-width: 800px
-}
-
-.quote_section p{
-    font-size: 24px;
-    font-style: normal;
-    text-align: right;
-}
-
-.quote_section p::before{
-    content:  " \2014 \0020";  
-    
-}
-
-.action_section{
-    display: flex;
-    justify-content: center;
-    background-color: var(--whitefont);
-    color: var(--grayback);
-    padding: 60px;
-    font-size: 18px;
-}
-.action_section .card {
-    background-color: var(--light_color);
-    color:var(--whitefont);
-    width: 1000px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 0;
-}
-.card_text{
-    padding: 0 60px;
-}
-.card button{
-    border: solid 2px var(--whitefont);
-    margin: 0 40px;
-   
-    
-}
 
 
 footer{
