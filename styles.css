@@ -145,7 +145,6 @@ text-align: center;
 
 .pink_section{
     background-color: var(--light_color);
-    padding: 175px;
     padding: 280px 0px;
 }
 
@@ -158,7 +157,7 @@ text-align: center;
 }
 .neuro_section {
     position:relative;
-    height: 500px;
+
 }
 .neuro_section .back{
     background-color: var(--dark-color);
@@ -167,69 +166,35 @@ text-align: center;
     background-position: center center;
     background-attachment:fixed;
     backdrop-filter:var(--dark-color);
-    padding: 280px 0px;
     box-shadow: 10px 15px 60px inset var(--dark-color);
     position:absolute;
     width: 100%;
     color: var(--whitefont);
     z-index: -1;
-}
+    height: 100%
 
-.neuro_section h4{
-    color: var(--whitefont);
-    font-size: 38px;
-    line-height: 60px;
-    font-family: 'akzidenz_grotesk_light';
-    font-weight: 100;
-    padding: 40px;
-    position:absolute
 }
 
 .neuro_section h2{
     font-family: 'rachelhandmedium';
     word-spacing: -10px;
     text-transform: uppercase;
-    line-height: 70px;
+    /* line-height: 70px; */
     font-size: 98px;
     font-weight: 100;
     text-align: center;
     color: var(--whitefont);
+    padding: 120px 0px 0px;
 }
-
-
-button{
-    padding: 8px 20px;
-    background-color: var(--light_color) ;
+.neuro_section h4{
     color: var(--whitefont);
-    border-radius: 5px;
-    border: solid 2px var(--dark-color);
-    font-size: 18px;
-    width: 8em;
-    cursor: pointer; 
-    transition-duration: 0.4s;
+    font-size: 38px;
+    line-height: 60px;
+    font-family: 'akzidenz_grotesk_light';
+    font-weight: 100;
+    padding: 80px 0px;
+
 }
-
-
-.card_body img{
-    display: flex;
-    margin: auto;
-    padding: 6px;
-    border-radius: 10px;  
-}
-
-.quote_section{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    background-color: var(--grayback);
-    color: #1f2937;
-    font-size: 32px;
-    font-style:italic;
-    padding: 60px;
-    text-align: left;
-}
-
-
 
 footer{
     display: flex;
