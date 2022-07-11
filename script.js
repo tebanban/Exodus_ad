@@ -1,18 +1,18 @@
 const setTheme= theme=>
 document.documentElement.className = theme;
 
-//This function moves the background of the Neuro Section:
-window.addEventListener('scroll', function(){
-let ante = document.getElementById("antelope")
-var value = window.scrollY * 0.01;
-ante.style.transform = 'translate(0px , '+value+'px)'
-})
+// //This function moves the background of the Neuro Section:
+// window.addEventListener('scroll', function(){
+// let ante = document.getElementById("antelope")
+// var value = window.scrollY -2300;
+// ante.style.transform = 'translate(0px, '+value+'px )'
+// })
 
 
 // // This function changes the scale of the background of the Neuro Section:
 // window.addEventListener('scroll', function(){
 //     let ante = document.getElementById("antelope")
-//     var value = window.scrollY * 0.0008;
+//     var value = window.scrollY * 0.0002 +1.3;
 //     ante.style.transform = 'scale( '+value+')';
 //     console.log(value * 0.1)
 //     })

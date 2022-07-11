@@ -157,14 +157,16 @@ text-align: center;
 }
 .neuro_section {
     position:relative;
+    height: 800px;
 
 }
 .neuro_section .back{
     display: block;
     background-color: var(--dark-color);
     background-image:url('./assets/elk.jpg') ;
-    background-size: cover;
+    background-size: 110%;
     background-position: center center;
+    background-attachment:fixed;
     backdrop-filter:var(--dark-color);
     box-shadow: 10px 15px 60px inset var(--dark-color);
     position:absolute;
@@ -173,7 +175,8 @@ text-align: center;
     z-index: -1;
     height: 100%;
     top: 0;
-    left:0;
+
+
 }
 
 .neuro_section h2{
