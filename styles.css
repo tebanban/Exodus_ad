@@ -40,6 +40,7 @@ body{
     flex-direction: column;
     min-height: 100vh;
     text-align: center;
+    background-color: var(--dark-color);
     
 }
 
@@ -197,7 +198,61 @@ text-align: center;
     line-height: 60px;
     font-family: 'akzidenz_grotesk_light';
     font-weight: 100;
-    padding: 80px 0px  200px;
+
+}
+
+.squares_section{
+    background-color: var(--dark-color);
+    color: var(--whitefont);
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.squares_section .title{
+    display: flex; 
+}
+.squares_section h2{
+    background-color: var(--dark-color);
+    text-transform: uppercase;
+    font-family: 'rachelhandmedium';
+    font-size: 82px;
+    font-weight: 100;
+    padding: 80px 0px;
+    width: fit-content;
+}
+
+.squares_section .line{
+    content: " ";
+    width: 500px;
+    height: 6px;
+    background-color: #fff;
+    margin: auto;
+}
+
+
+.squares_section ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-right: 30px;
+  }
+
+.pink_square{
+    width: 380px;
+    height: 362px;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--light_color);
+    position: relative;
+}
+.slide_square{
+    width: 380px;
+    height: 362px;
+    background-image:url('./assets/wine.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--dark-color);
+    position: relative;
 }
 
 footer{
