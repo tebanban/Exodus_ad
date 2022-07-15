@@ -202,6 +202,8 @@ text-align: center;
 }
 
 .squares_section{
+    display: flex;
+    flex-direction: column;
     background-color: var(--dark-color);
     color: var(--whitefont);
     margin-left: auto;
@@ -218,15 +220,17 @@ text-align: center;
     font-size: 82px;
     font-weight: 100;
     padding: 80px 0px;
-    width: fit-content;
+    justify-content: center;
+    flex: 2;
 }
 
 .squares_section .line{
     content: " ";
-    width: 500px;
+    width: auto;
     height: 6px;
     background-color: #fff;
     margin: auto;
+    flex: 1;
 }
 
 
@@ -234,16 +238,21 @@ text-align: center;
     display: flex;
     justify-content: center;
     list-style: none;
-    padding-right: 30px;
+    flex-wrap: wrap;
+    font-size: 35px;
+    
+
   }
 
 .pink_square{
     width: 380px;
     height: 362px;
-    background-size: cover;
-    background-position: center;
     background-color: var(--light_color);
-    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    padding: 15px;
+    
 }
 .slide_square{
     width: 380px;
@@ -252,7 +261,6 @@ text-align: center;
     background-size: cover;
     background-position: center;
     background-color: var(--dark-color);
-    position: relative;
 }
 
 footer{
