@@ -240,7 +240,7 @@ text-align: center;
     list-style: none;
     flex-wrap: wrap;
     font-size: 35px;
-    
+    max-width: 1200px;
 
   }
 
@@ -257,10 +257,11 @@ text-align: center;
 .slide_square{
     width: 380px;
     height: 362px;
-    background-image:url('./assets/wine.jpg') ;
-    background-size: cover;
-    background-position: center;
     background-color: var(--dark-color);
+}
+
+.first_square{
+    display: block;
 }
 
 footer{
