@@ -36,8 +36,13 @@ function carousel() {
     x[i].style.display = "none";  
   }
   myIndex++;
+<<<<<<< HEAD
   if (myIndex > x.length) {myIndex = 1};
   console.log(x)
   x[myIndex-1].style.display ="block";  
+=======
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display ="block"
+>>>>>>> 64030bf4c74ee1e8d1527864d7c29d554941d663
   setTimeout(carousel, 2000); // Change image every 2 seconds
 }
