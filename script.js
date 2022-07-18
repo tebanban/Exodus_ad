@@ -24,3 +24,20 @@ document.documentElement.className = theme;
 //     console.log(target.style)
 // })
 
+//this function adds slide show to square1
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("first_square");
+
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1};
+  console.log(x)
+  x[myIndex-1].style.display ="block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
